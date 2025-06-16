@@ -4,40 +4,97 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Özer Tesisat - Kurumsal Tanıtım</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-color: #e6f0ff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      color: #0056b3;
+      font-weight: bold;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #f8f9fa;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Ana Sayfa</a></li>
-        <li><a href="hakkimizda.html">Hakkımızda</a></li>
-        <li><a href="hizmetler.html">Hizmetler</a></li>
-        <li><a href="iletisim.html">İletişim</a></li>
-      </ul>
-    </nav>
-  </header>
 
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Özer Tesisat</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Ana Sayfa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Hakkımızda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Hizmetler</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">İletişim</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
   <section class="hero">
-    <h1>Özer Tesisat</h1>
-    <p>Tesisata dair her şey</p>
-    <a href="tel:05522428790" class="btn">Bizi Arayın: 0552 242 87 90</a>
+    <div class="container">
+      <h1>Özer Tesisat</h1>
+      <p>Tesisata dair her şey</p>
+      <a href="tel:05522428790" class="btn btn-danger">Bizi Arayın: 0552 242 87 90</a>
+    </div>
   </section>
 
-  <section class="services">
-    <h2>Hizmetlerimiz</h2>
-    <ul>
-      <li>Su Tesisatı</li>
-      <li>Doğalgaz Tesisatı</li>
-      <li>Kombi Servisi</li>
-      <li>Kalorifer Tesisatı</li>
-      <li>Kaçak Tespiti</li>
-    </ul>
+  <!-- HİZMETLER -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Hizmetlerimiz</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Su Tesisatı</h5>
+              <p class="card-text">Evinizin tüm su tesisatı işleriniz uzman kadromuzla yapılır.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Doğalgaz Tesisatı</h5>
+              <p class="card-text">Güvenli ve onaylı doğalgaz hattı çekimi ve montaj hizmetleri.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">Kombi Servisi</h5>
+              <p class="card-text">Kombi montajı, bakımı ve arıza tespit hizmetleri.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <!-- FOOTER -->
   <footer>
     <p>Adres: Sakarya</p>
     <p>© 2025 Özer Tesisat. Tüm hakları saklıdır.</p>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
