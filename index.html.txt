@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Özer Tesisat - Kurumsal Tanıtım</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Ana Sayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="hizmetler.html">Hizmetler</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Özer Tesisat</h1>
+    <p>Tesisata dair her şey</p>
+    <a href="tel:05522428790" class="btn">Bizi Arayın: 0552 242 87 90</a>
+  </section>
+
+  <section class="services">
+    <h2>Hizmetlerimiz</h2>
+    <ul>
+      <li>Su Tesisatı</li>
+      <li>Doğalgaz Tesisatı</li>
+      <li>Kombi Servisi</li>
+      <li>Kalorifer Tesisatı</li>
+      <li>Kaçak Tespiti</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Adres: Sakarya</p>
+    <p>© 2025 Özer Tesisat. Tüm hakları saklıdır.</p>
+  </footer>
+</body>
+</html>

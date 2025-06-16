@@ -1,0 +1,8 @@
+ozer-tesisat/
+│
+├── index.html
+├── style.css
+├── resimler/
+│    └── (buraya logo ve diğer görselleri koyabilirsin)
+└── videolar/
+     └── (video dosyaları için burası)
